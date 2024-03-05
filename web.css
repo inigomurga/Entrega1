@@ -7,3 +7,52 @@ html {
   *:after {
     box-sizing: inherit;
   }
+
+body{
+background-color: antiquewhite;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+h1{
+  color: azure;
+  font-size: 9rem;
+}
+
+
+
+
+
+
+.header{
+  background-color: rgba(0, 170, 255, 0.247);
+  display: flex;
+  align-items: center;
+}
+
+.header img{
+  max-width: 20rem;
+  max-height: 20rem;
+  margin-left: 5rem;
+}
+.titulo{
+  text-align: center;
+  margin-left: 30rem;
+}
+.contenedor{
+  max-width: 120rem;
+  margin-inline: auto;
+}
+.contenedor-navegacion{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  
+}
+.contenedor-navegacion a{
+  align-items: center;
+  margin: 0 5rem;
+  
+
+}
