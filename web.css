@@ -63,6 +63,45 @@ h3{
 .contenedor-navegacion a{
   align-items: center;
   margin: 0 5rem;
-  
-
+}
+.mapa-clientes{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(6,1fr);
+}
+.cliente:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  display: grid;
+  font-size: 1.5rem;
+}
+.cliente:nth-child(1) img{
+  max-height: max-content;
+  max-width: max-content;
+}
+.cliente:nth-child(2){
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: grid;
+  font-size: 1.5rem;
+}
+.cliente:nth-child(2) img{
+  max-height: 40rem;
+  max-width: max-content;
+}
+.cliente:nth-child(3){
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  display: grid;
+  font-size: 1.5rem;
+}
+.cliente:nth-child(3) img{
+  max-height: 40rem;
+  max-width: max-content;
 }
