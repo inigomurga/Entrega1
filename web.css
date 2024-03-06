@@ -64,16 +64,21 @@ h3{
   align-items: center;
   margin: 0 5rem;
 }
+.sobre-nosotros{
+  
+}
 .mapa-clientes{
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(6,1fr);
+  grid-column-gap: 25rem;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  align-items: center;
 }
 .cliente:nth-child(1){
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 7;
+  grid-row-end: 5;
   display: grid;
   font-size: 1.5rem;
 }
@@ -82,10 +87,10 @@ h3{
   max-width: max-content;
 }
 .cliente:nth-child(2){
-  grid-column-start: 4;
-  grid-column-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
   display: grid;
   font-size: 1.5rem;
 }
@@ -94,10 +99,10 @@ h3{
   max-width: max-content;
 }
 .cliente:nth-child(3){
-  grid-column-start: 4;
-  grid-column-end: 7;
-  grid-row-start: 4;
-  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
   display: grid;
   font-size: 1.5rem;
 }
