@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /*1 rem son 10 pixeles*/
+   /*1 rem son 10 pixeles*/
+   /*1 rem son 10 pixeles font-size: 62.5%*/
   }
   *, 
   *:before, 
@@ -66,6 +67,8 @@ h3{
 }
 .sobre-nosotros{
   background-image: url(img/fondoSobreNosotros.jpg);
+  height: 200px;
+  width: max-content;
 }
 .mapa-clientes{
   display: grid;
@@ -84,7 +87,7 @@ h3{
 }
 .cliente:nth-child(1) img{
   max-height: max-content;
-  max-width: max-content;
+  width: max-content;
 }
 .cliente:nth-child(2){
   grid-column-start: 3;
