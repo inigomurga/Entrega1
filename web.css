@@ -65,7 +65,7 @@ h3{
   margin: 0 5rem;
 }
 .sobre-nosotros{
-  
+  background-image: url(img/fondoSobreNosotros.jpg);
 }
 .mapa-clientes{
   display: grid;
