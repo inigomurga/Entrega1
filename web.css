@@ -27,7 +27,6 @@ h2{
 }
 h3{
   font-size: 2.4rem;
-  margin:0 0 0.5px 0;
 }
 
 
@@ -52,40 +51,49 @@ h3{
 }
 .contenedor{
   max-width: 120rem;
-  margin-inline: auto;
-  
+  margin-inline: auto; 
 }
 .contenedor-navegacion{
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  
+  margin-bottom: 0;
 }
 .contenedor-navegacion a{
+  font-size: 2.5rem;
   align-items: center;
-  margin: 0 5rem;
+  text-decoration: none;
+  padding: 0 5rem;
 }
+.contenedor-navegacion a:hover{
+  color: black;
+  transition: transform 0.3s ease ;
+}
+
 .sobre-nosotros{
   background-image: url(img/fondoSobreNosotros.jpg);
   height: 200px;
-  width: max-content;
+  width: 100%;
+  margin-top: 0;
 }
+
+
+
+
+
 .mapa-clientes{
   display: grid;
   grid-column-gap: 25rem;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(5,1fr);
-  align-items: center;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,1fr);
+  grid-gap: 1.5rem;
 }
 .cliente:nth-child(1){
   grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  display: grid;
-  font-size: 1.5rem;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 8;
 }
 .cliente:nth-child(1) img{
   height: 100%;
@@ -93,12 +101,11 @@ h3{
   object-fit: cover;
 }
 .cliente:nth-child(2){
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 9;
   grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  font-size: 1.5rem;
+  grid-row-end: 5;
+
 }
 .cliente:nth-child(2) img{
   max-height: 100%;
@@ -106,12 +113,11 @@ h3{
   object-fit: cover;
 }
 .cliente:nth-child(3){
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 5;
-  display: grid;
-  font-size: 1.5rem;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 9;
+
 }
 .cliente:nth-child(3) img{
   max-height: 100%;
