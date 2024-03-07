@@ -14,16 +14,8 @@ background-color: antiquewhite;
 margin: 0;
 padding: 0;
 }
-ul{
-  margin: 0;
-  padding: 0;
-}
-figure{
-  margin: 0;
-  padding: 0;
-}
 img{
-  width: 100%;
+  max-width: 100%;
   display: block;
 }
 h1{
@@ -96,8 +88,9 @@ h3{
   font-size: 1.5rem;
 }
 .cliente:nth-child(1) img{
-  max-height: max-content;
-  width: max-content;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .cliente:nth-child(2){
   grid-column-start: 3;
@@ -108,8 +101,9 @@ h3{
   font-size: 1.5rem;
 }
 .cliente:nth-child(2) img{
-  max-height: 40rem;
-  max-width: max-content;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 .cliente:nth-child(3){
   grid-column-start: 3;
@@ -120,8 +114,9 @@ h3{
   font-size: 1.5rem;
 }
 .cliente:nth-child(3) img{
-  max-height: 40rem;
-  max-width: max-content;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .areas-trabajo{
