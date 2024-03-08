@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%
+    
    /*1 rem son 10 pixeles */
   }
   *, 
@@ -10,9 +11,16 @@ html {
   }
 
 body{
+font-family: "Times New Roman", Times, serif;
+ font-size: 1.6rem;
 background-color: antiquewhite;
 margin: 0;
 padding: 0;
+}
+footer{
+  background-color: rgb(40, 38, 38);
+  margin-top: 5rem;
+  padding: 2.5rem;
 }
 img{
   max-width: 100%;
@@ -72,7 +80,7 @@ h3{
 }
 
 .sobre-nosotros{
-  background-image: url(img/fondoSobreNosotros.jpg);
+  background-image: url(../img/fondoSobreNosotros.jpg);
   height: 200px;
   width: 100%;
   margin-top: 0;
@@ -125,14 +133,16 @@ h3{
   object-fit: cover;
 }
 
-.areas-trabajo{
 
+
+
+
+.areas-trabajo{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .area{
   padding: 0.5rem;
-
   position: relative;
 
 }
@@ -143,12 +153,12 @@ h3{
 /*.area nombre:hover nombre{
   display: block;
 }*/
-.area:hover figcaption{
+/*.area:hover figcaption{
   display: block;
-}
+}*/
 
 .nombre{
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
