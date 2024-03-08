@@ -11,11 +11,11 @@ html {
   }
 
 body{
-font-family: "Times New Roman", Times, serif;
- font-size: 1.6rem;
-background-color: antiquewhite;
-margin: 0;
-padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
 }
 footer{
   background-color: rgb(40, 38, 38);
@@ -173,6 +173,20 @@ h3{
 
 
 /*Footer*/
+.contenedor-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.contenedor-footer h3{
+  font-size: 2rem;
+}
+.info{
+  display: flex;
+}
+.info-tipo{
+  margin-right: 3rem;
+  line-height: 0.5rem;
+}
 .mapa {
   text-align: center;
 }
