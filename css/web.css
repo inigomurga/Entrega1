@@ -181,12 +181,20 @@ h3{
   font-size: 2rem;
 }
 .info{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .info-tipo{
   margin-right: 3rem;
   line-height: 0.5rem;
 }
+.info-tipo img{
+  height: 7rem;
+  width: 7rem;
+}
 .mapa {
   text-align: center;
+}
+.copyright{
+  font-size: 1.2rem;
 }
