@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+    
+   /*1 rem son 10 pixeles */
+  }
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+
+.sobre-nosotros{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  .fondo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/fondoSobreNosotros.jpg);
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+  }
+
+  .sobre-nosotros:hover .fondo{
+    transform: scale(1.5);
+  }
+  .contenido{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    z-index: 1;
+  }
+  .tornillo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .tornillo img{
+    height: 20rem;
+    width: 15rem;
+  }
+  .texto-sobre{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-left: 7.5rem;
+  }
+  
