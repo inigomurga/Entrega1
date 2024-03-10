@@ -10,10 +10,11 @@ html {
     box-sizing: inherit;
   }
 
+  /*Constantes*/
 body{
   font-family: "Times New Roman", Times, serif;
   font-size: 1.6rem;
-  background-color: antiquewhite;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -40,8 +41,7 @@ h3{
 
 
 
-
-
+/*Header*/
 .header{
   background-color: rgba(0, 170, 255, 0.247);
   display: flex;
@@ -61,6 +61,8 @@ h3{
   max-width: 120rem;
   margin-inline: auto; 
 }
+
+/*navegacion*/
 .contenedor-navegacion{
   background-color: aliceblue;
   display: flex;
@@ -79,17 +81,42 @@ h3{
   transition: transform 0.3s ease ;
 }
 
+/*Sobre nosotros*/
 .sobre-nosotros{
-  background-image: url(../img/fondoSobreNosotros.jpg);
-  height: 200px;
+  height: 100%;
   width: 100%;
   margin-top: 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+
+}
+.imagen-fondo{
+  background-image: url(../img/fondoSobreNosotros.jpg);
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+.sobre-nosotros:hover .imagen-fondo{
+  transform: scale(1.5);
+}
+.tornillo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.tornillo img{
+  height: 20rem;
+  width: 15rem;
+}
+.texto-sobre{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  margin-left: 7.5rem;
 }
 
-
-
-
-
+/*Clientes*/
 .mapa-clientes{
   display: grid;
   grid-column-gap: 25rem;
@@ -136,7 +163,7 @@ h3{
 
 
 
-
+/*Areas*/
 .areas-trabajo{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
