@@ -19,7 +19,7 @@ body{
   padding: 0;
 }
 footer{
-  background-color: rgb(40, 38, 38);
+  background-color: rgb(103, 93, 93);
   margin-top: 5rem;
   padding: 2.5rem;
 }
@@ -83,6 +83,7 @@ h3{
 
 /*Sobre nosotros*/
 .sobre-nosotros{
+  position: relative;
   height: 100%;
   width: 100%;
   margin-top: 0;
@@ -94,13 +95,28 @@ h3{
   transition: transform 0.3s ease-in-out;
 
 }
-.imagen-fondo{
+.fondo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-image: url(../img/fondoSobreNosotros.jpg);
   background-size: cover;
   transition: transform 0.3s ease-in-out;
+  z-index: -1;
 }
-.sobre-nosotros:hover .imagen-fondo{
-  transform: scale(1.5);
+.sobre-nosotros:hover .fondo{
+  transform: scale(1.2);
+}
+.contenido{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
 }
 .tornillo{
   grid-column-start: 2;
