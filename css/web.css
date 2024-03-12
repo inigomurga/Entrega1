@@ -252,4 +252,62 @@ h3{
 
 
 /*Contactanos*/
-
+.formulario{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 40rem;
+  padding: 3rem;
+  margin: auto;
+  margin-top: 10rem;
+  border-radius: 1rem;
+  box-shadow: 0.7rem 1.3rem 3.7rem #000;
+}
+.campos,
+textarea.campos {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 0.1rem solid #000;
+  font-size: 1.8rem;
+}
+.condiciones{
+  height: 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.textarea{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 0.1rem solid #000;
+  font-size: 1.8rem;
+}
+.formulario a{
+  color: #146dd3;
+  text-decoration: none;
+}
+.formulario a:hover{
+  color: #2507ab;
+  text-decoration: underline;
+}
+.enviar{
+  width: 100%;
+  border: none;
+  padding: 1.2rem;
+  color: grey;
+  margin: 1.6rem 0;
+}
+.enviar:hover{
+  transition: transform 0.3s ease ;
+  color: white;
+  background-color: rgb(44, 44, 44);
+}
+.check{
+  display: flex;
+}
+label{
+  font-size: 1.6rem;
+}

@@ -24,21 +24,22 @@
         </nav>
     </div>
 
-    <div class="formulario">
-        <p>formulario</p>
-    </div>
+    <section class="formulario">
+        <h3>Póngase en contacto con nosotros</h3>
+        <form action="#" method="post">
+            <input class="campos" type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required>
+            <input class="campos" type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required>
+            <input class="campos" type="email" name="email" id="email" placeholder="Escriba su correo electrónico" required>
 
-
-
-
-
-
-
-
-
-
-
-
+            <textarea class="campos" cols="44" rows="10" placeholder="Coméntenos" required></textarea>
+            <div class="check">
+                <input class="condicion" type="checkbox" name="condiciones" value="condiciones" required> 
+                <label for="condiciones">Acepto los 
+                <a href="https://letslaw.es/terminos-y-condiciones-sitio-web/">Términos y Condiciones</a></label>
+            </div>
+            <input class="enviar" type="submit" value="Enviar">
+        </form>
+    </section>
 
 
 
