@@ -24,13 +24,13 @@ html {
   width: 80rem;
 }
 .noticia{
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: center;*/
 }
 .noticia h3{
-  text-align: center;
+
 }
 
 
