@@ -150,6 +150,7 @@ h3{
   align-items: center;
 }
 .contenedor-noticia{
+  margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -159,6 +160,9 @@ h3{
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+.fecha h3{
+  color: red;
 }
 .leroy-logo{
   grid-column-start: 4;

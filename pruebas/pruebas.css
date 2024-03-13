@@ -14,43 +14,34 @@ html {
     margin-inline: auto; 
   }
 
-/*Clientes y noticia*/
-.clientes{
-  display: grid;
-  grid-template-columns: 60% 40%;
-  column-gap: 2rem;
-  margin-top: 7rem;
-}
-.mapamundi img{
-  height: 50rem;
-  width: 80rem;
-}
-.comillas{
+ul{
+  list-style: none;
   display: flex;
-  align-items: center;
 }
-.contenedor-noticia{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+ul li{
+  width: 48%;
 }
-.fecha{
-  grid-column-start: 1;
-  grid-column-end: 3.5;
-  grid-row-start: 1;
-  grid-row-end: 3.5;
+ul li figure{
+  padding: 0.5rem;
+  position: relative;
 }
-.leroy-logo{
-  grid-column-start: 3.5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 3.5; 
+ul li figure:hover figcaption{
+  display: block;
 }
-.noticia-texto{
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 3.5;
-  grid-row-end: 6;
+ul li figcaption{
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 1.5rem;
+  color: white;
+}
+img{
+  width: 100%;
 }
 
 
