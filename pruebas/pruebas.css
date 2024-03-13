@@ -17,18 +17,16 @@ html {
 ul{
   list-style: none;
   display: flex;
+  gap: 5rem;
 }
-ul li{
-  width: 48%;
-}
-ul li figure{
-  padding: 0.5rem;
+
+.uso{
   position: relative;
 }
-ul li figure:hover figcaption{
+.uso:hover .explicacion{
   display: block;
 }
-ul li figcaption{
+.explicacion{
   display: none;
   position: absolute;
   top: 0.5rem;
@@ -41,7 +39,8 @@ ul li figcaption{
   color: white;
 }
 img{
-  width: 100%;
+  width: 30rem;
+  height: 25rem;
 }
 
 

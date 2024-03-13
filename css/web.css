@@ -179,28 +179,20 @@ h3{
 
 
 /*Areas*/
-.areas-trabajo{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+ul{
+  list-style: none;
+  display: flex;
+  gap: 5rem;
 }
-.area{
-  padding: 0.5rem;
+
+.uso{
   position: relative;
-
 }
-.area img{
-  width: 100%;
-  height: 100%;
+.uso:hover .explicacion{
+  display: block;
 }
-/*.area nombre:hover nombre{
-  display: block;
-}*/
-/*.area:hover figcaption{
-  display: block;
-}*/
-
-.nombre{
-  /*display: none;*/
+.explicacion{
+  display: none;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
@@ -211,6 +203,11 @@ h3{
   padding: 1.5rem;
   color: white;
 }
+.uso img{
+  width: 30rem;
+  height: 25rem;
+}
+
 
 
 
