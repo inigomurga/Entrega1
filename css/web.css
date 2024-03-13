@@ -145,6 +145,33 @@ h3{
   height: 50rem;
   width: 80rem;
 }
+.comillas{
+  display: flex;
+  align-items: center;
+}
+.contenedor-noticia{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.fecha{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.leroy-logo{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3; 
+}
+.noticia-texto{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
 
 
 /*Areas*/
