@@ -187,6 +187,8 @@ ul{
   list-style: none;
   display: flex;
   gap: 5rem;
+  padding-inline-start: 0;
+  justify-content: center;
 }
 
 .uso{
