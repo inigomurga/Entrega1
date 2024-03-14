@@ -9,40 +9,30 @@ html {
   *:after {
     box-sizing: inherit;
   }
-  .contenedor{
-    max-width: 120rem;
-    margin-inline: auto; 
-  }
-
-ul{
-  list-style: none;
+.contenedor{
+  max-width: 120rem;
+  margin-inline: auto; 
+}
+.productos{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.producto1{
+  grid-column-start: 1;
+  grid-column-end: 7;
   display: flex;
-  gap: 5rem;
+  flex-direction: row;
+  align-items: center; 
+  text-align: center; 
+  margin-left: 25rem;
 }
-
-.uso{
-  position: relative;
+.producto1 img{
+  width: 40rem;
+  height: 20rem;
 }
-.uso:hover .explicacion{
-  display: block;
+.producto1 ul{
+  text-align: left;
 }
-.explicacion{
-  display: none;
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  bottom: 0.5rem;
-  right: 0.5rem;
-  background: rgba(0,0,0,0.6);
-  text-align: center;
-  padding: 1.5rem;
-  color: white;
-}
-img{
-  width: 30rem;
-  height: 25rem;
-}
-
 
 
 
