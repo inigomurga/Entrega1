@@ -183,7 +183,7 @@ h4{
 
 
 /*Areas*/
-ul{
+.usos ul{
   list-style: none;
   display: flex;
   gap: 5rem;
@@ -326,4 +326,26 @@ textarea.campos {
 label{
   font-size: 1.6rem;
   margin-left: 1.5rem;
+}
+
+/*productos*/
+.productos{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.producto1{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  text-align: center; 
+  margin-left: 25rem;
+}
+.producto1 img{
+  width: 40rem;
+  height: 20rem;
+}
+.producto1 ul{
+  text-align: left;
 }
