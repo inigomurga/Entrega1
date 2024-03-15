@@ -1,4 +1,50 @@
-
+html {
+  box-sizing: border-box;
+  font-size: 62.5%
+  
+ /*1 rem son 10 pixeles */
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+.contenedor-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.contenedor-footer h3{
+  font-size: 2rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.info-cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info-tipo{
+  margin-right: 2rem;
+  line-height: 0.5rem;
+  font-size: 1.4rem;
+}
+.info-redes{
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+.info-redes img{
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-right: 2rem;
+}
+.mapa {
+  text-align: center;
+}
+.copyright{
+  font-size: 1.2rem;
+}
 
 
 
