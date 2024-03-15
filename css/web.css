@@ -12,7 +12,7 @@ html {
 
   /*Constantes*/
 body{
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   background-color: white;
   margin: 0;
@@ -226,9 +226,6 @@ h4{
   height: 25rem;
 }
 
-
-
-
 /*Footer*/
 .contenedor-footer{
   display: grid;
@@ -242,8 +239,9 @@ h4{
   grid-template-columns: 1fr 1fr 1fr;
 }
 .info-tipo{
-  margin-right: 3rem;
+  margin-right: 2rem;
   line-height: 0.5rem;
+  font-size: 1.4rem;
 }
 .info-tipo img{
   height: 7rem;
@@ -255,15 +253,6 @@ h4{
 .copyright{
   font-size: 1.2rem;
 }
-
-
-
-
-
-
-
-
-
 
 /*Contactanos*/
 .fondo-formulario{
@@ -345,13 +334,20 @@ label{
   display: flex;
   flex-direction: row;
   align-items: center; 
-  text-align: center; 
-  margin-left: 25rem;
+  text-align: center;
+  border-bottom:0.1rem solid #000;
 }
 .producto1 img{
+   
+  margin-left: 8rem;
   width: 40rem;
   height: 20rem;
 }
 .producto1 ul{
+  margin-left: 10rem;
   text-align: left;
+  font-weight: bold;
+}
+.producto1 ul span{
+  font-weight: normal;
 }
