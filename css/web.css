@@ -72,8 +72,12 @@ h4{
   max-width: 120rem;
   margin-inline: auto; 
 }
-
-
+@media ( max-width:769px){
+  h4{
+    max-width: 65rem;
+    margin-inline: auto;
+  }
+}
 @media (max-width:391px){
   .contenedor{
     margin-left: 0.5rem;
@@ -476,12 +480,20 @@ h4{
   box-shadow: 0.5rem 1.5rem 3.5rem #000;
 
 }
+@media ( max-width:769px){
+  .formulario{
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    margin-left: 17rem;
+
+  }
+}
 @media (max-width:391px){
   .formulario{
     margin-top: 10rem;
     margin-bottom: 20rem;
     margin-left: 4rem;
-    height: 50rem;
+    height: 53rem;
     width: 30rem;
   }
 }
@@ -535,6 +547,8 @@ label{
   margin-left: 1.5rem;
 }
 
+
+
 /*productos*/
 .productos{
   display: grid;
@@ -574,6 +588,11 @@ label{
   margin-left: 10rem;
   text-align: left;
   font-weight: bold;
+}
+@media ( max-width:769px){
+  .producto1 ul{
+    margin-left: 0rem;
+  }
 }
 @media (max-width:391px){
   .producto1 ul{
