@@ -182,7 +182,7 @@ h4{
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(../img/fondoSobreNosotros.jpg);
+  background-image: url(../images/fondoSobreNosotros.jpg);
   background-size: cover;
   transition: transform 0.3s ease-in-out;
   z-index: -1;
@@ -463,7 +463,7 @@ h4{
 
 /*Contactanos*/
 .fondo-formulario{
-  background-image: url(../img/fondoFormulario.jpg);
+  background-image: url(../images/fondoFormulario.jpg);
   background-size: 100% 100%;
 }
 .formulario{
