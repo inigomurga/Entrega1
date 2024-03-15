@@ -51,6 +51,7 @@ h4{
   background: linear-gradient(to bottom,rgb(81, 81, 81), white);
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 20rem;
 }
 .header img{
@@ -60,7 +61,7 @@ h4{
 }
 .titulo{
   text-align: center;
-  margin-left: 30rem;
+  
 }
 .contenedor{
   max-width: 120rem;
@@ -126,16 +127,21 @@ h4{
 }
 .tornillo{
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 3.5;
 }
 .tornillo img{
-  height: 20rem;
-  width: 15rem;
+  height: 30rem;
+  width: 40rem;
 }
 .texto-sobre{
-  grid-column-start: 3;
-  grid-column-end: 5;
-  margin-left: 7.5rem;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  margin-left: 10rem;
+  font-size: 2rem;
+  text-align: justify;
+}
+.texto-sobre h2{
+  text-align: center;
 }
 
 /*Clientes y noticia*/
