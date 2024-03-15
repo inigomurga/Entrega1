@@ -1,38 +1,4 @@
-html {
-    box-sizing: border-box;
-    font-size: 62.5%
-    
-   /*1 rem son 10 pixeles */
-  }
-  *, 
-  *:before, 
-  *:after {
-    box-sizing: inherit;
-  }
-.contenedor{
-  max-width: 120rem;
-  margin-inline: auto; 
-}
-.productos{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
-.producto1{
-  grid-column-start: 1;
-  grid-column-end: 7;
-  display: flex;
-  flex-direction: row;
-  align-items: center; 
-  text-align: center; 
-  margin-left: 25rem;
-}
-.producto1 img{
-  width: 40rem;
-  height: 20rem;
-}
-.producto1 ul{
-  text-align: left;
-}
+
 
 
 
